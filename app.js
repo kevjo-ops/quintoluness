@@ -302,8 +302,6 @@ async function imprimirMultiplosDeTres() {
     console.log("--------------");
 }
 
-
-/* Ejecutar todos los ejercicios */
 async function ejecutarEjercicios() {
     await sumarElementos();
     await mayorMenor();
@@ -314,7 +312,7 @@ async function ejecutarEjercicios() {
     await convertirAMayusculas();
     await sumarPositivos();
     await primerMultiploCinco();
-    await tablaMultiplicar();  // Este ejercicio requiere interacción
+    await tablaMultiplicar();
     await fibonacci();
     await adivinarNumero();
     await cuentaRegresiva();
@@ -329,5 +327,4 @@ async function ejecutarEjercicios() {
     rl.close();  // Cierra la interfaz al finalizar todos los ejercicios
 }
 
-// Ejecutar los ejercicios
 ejecutarEjercicios();
